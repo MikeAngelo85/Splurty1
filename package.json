@@ -1,0 +1,8 @@
+{
+  "name": "splurty",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "popper.js": "^1.15.0"
+  }
+}
