@@ -1,8 +1,12 @@
 {
   "name": "splurty",
   "private": true,
+<<<<<<< HEAD
   "dependencies": {
     "bootstrap": "^4.3.1",
     "popper.js": "^1.15.0"
   }
+=======
+  "dependencies": {}
+>>>>>>> c495c74bef9ca8635ec6cd45a69024dcc66a66d5
 }
