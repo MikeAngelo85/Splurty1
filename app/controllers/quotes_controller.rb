@@ -1,13 +1,10 @@
-class QuotesController < ApplicationController
+class QuotesControler < ApplicationController
   def index
     @quote = Quote.order("RANDOM()").first 
   end
 
-
-  
-
   def create
-    Quote.create(quote.params)
+    @quote = Quote.create(quote.params)
     if @quote.invalid?
         flash[:error] = '<strong>Could not save</strong> the data you entered is invalid.'
       end  
@@ -22,6 +19,4 @@ class QuotesController < ApplicationController
   def quote_params
     params.require(:quote).permit(:saying, :author)
   end
-
-
 end
